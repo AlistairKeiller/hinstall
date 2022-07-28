@@ -12,6 +12,7 @@ sddm \
 alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k
 
 systemctl enable sddm
+
 chsh -s /usr/bin/zsh
 
 cp config/.zshrc ~
