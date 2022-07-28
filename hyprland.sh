@@ -17,6 +17,6 @@ systemctl enable sddm
 
 cp config/zshrc ~/.zshrc
 mkdir -p ~/.config/alacritty/
-cp helper/alacritty.yml ~/.config/alacritty/alacritty.yml
+cp config/alacritty.yml ~/.config/alacritty/alacritty.yml
 
 chsh -s /usr/bin/zsh
