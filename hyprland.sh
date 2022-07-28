@@ -4,11 +4,15 @@ set -e
 source helper/yay.sh
 
 yay -Syu --noconfirm \
-hyprland-git \
-sddm \
-alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k
+  hyprland-git \
+  gdm \
+  alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
+  firefox \
+  webcord \
+  nautilus \
+  visual-studio-code-bin gnome-keyring \
 
-systemctl enable sddm
+systemctl enable gdm
 
 chsh -s /usr/bin/zsh
 
