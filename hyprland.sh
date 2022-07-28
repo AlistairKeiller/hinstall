@@ -11,6 +11,7 @@ yay -Syu --noconfirm \
   firefox \
   webcord \
   nautilus \
+  pavucontrol \
   visual-studio-code-bin gnome-keyring
 
 systemctl enable sddm
