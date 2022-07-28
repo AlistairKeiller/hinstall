@@ -10,7 +10,7 @@ yay -Syu --noconfirm \
   firefox \
   webcord \
   nautilus \
-  visual-studio-code-bin gnome-keyring \
+  visual-studio-code-bin gnome-keyring
 
 systemctl enable gdm
 
