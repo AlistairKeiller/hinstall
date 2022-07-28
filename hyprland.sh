@@ -10,7 +10,7 @@ yay -Syu --noconfirm \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
-  nautilus adw-gtk3 \
+  nautilus \
   visual-studio-code-bin gnome-keyring
 
 systemctl enable sddm
@@ -25,3 +25,4 @@ cp config/alacritty.yml ~/.config/alacritty
 mkdir ~/.config/hypr
 cp config/hyprland.conf ~/.config/hypr
 
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
