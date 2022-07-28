@@ -18,5 +18,5 @@ mkdir ~/.config/alacritty
 cp config/alacritty.yml ~/.config/alacritty
 
 mkdir ~/.config/hypr
-cp config/hyprland.yml ~/.config/hypr
+cp config/hyprland.conf ~/.config/hypr
 
