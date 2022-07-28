@@ -5,6 +5,7 @@ source helper/yay.sh
 
 yay -Syu --noconfirm \
   hyprland-git \
+  wofi \
   gdm \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
