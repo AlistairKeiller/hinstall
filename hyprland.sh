@@ -6,14 +6,14 @@ source helper/yay.sh
 yay -Syu --noconfirm \
   hyprland-git \
   wofi \
-  gdm \
+  sddm \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
   nautilus adw-gtk3 \
   visual-studio-code-bin gnome-keyring
 
-systemctl enable gdm
+systemctl enable sddm
 
 chsh -s /usr/bin/zsh
 
