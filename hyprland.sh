@@ -15,8 +15,8 @@ alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-
 
 systemctl enable sddm
 
-cp config/zshrc ~/.zshrc
+cp config/.zshrc ~
 mkdir -p ~/.config/alacritty/
-cp config/alacritty.yml ~/.config/alacritty/alacritty.yml
+cp config/alacritty.yml ~/.config/alacritty
 
 chsh -s /usr/bin/zsh
