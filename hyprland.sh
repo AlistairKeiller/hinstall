@@ -8,7 +8,7 @@ yay -Syu --noconfirm \
   wofi \
   sddm \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
-  grim slurp flameshot \
+  grim slurp \
   firefox \
   webcord \
   nautilus \
