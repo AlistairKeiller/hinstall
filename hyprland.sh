@@ -8,8 +8,15 @@ source helper/multilib.sh
 
 source helper/yay.sh
 
-source helper/alacritty.sh
+yay -Syu --noconfirm \
+hyprland-git \
+sddm \
+alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k
 
-source helper/lightdm.sh
+systemctl enable sddm
 
-yay -Syu --noconfirm hyprland-git
+cp config/zshrc ~/.zshrc
+mkdir -p ~/.config/alacritty/
+cp helper/alacritty.yml ~/.config/alacritty/alacritty.yml
+
+chsh -s /usr/bin/zsh
