@@ -9,7 +9,7 @@ yay -Syu --noconfirm \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
-  nautilus \
+  nautilus adw-gtk3 \
   visual-studio-code-bin gnome-keyring
 
 systemctl enable gdm
