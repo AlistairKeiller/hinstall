@@ -30,5 +30,5 @@ cp config/hyprland.conf ~/.config/hypr
 cp config/hyprpaper.conf ~/.config/hypr
 cp config/wallpaper.png ~/.config/hypr
 
-sudo rm /usr/share/gtk-3.0/settings.ini
-sudo cp config/settings.ini /usr/share/gtk-3.0
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
