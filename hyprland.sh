@@ -6,7 +6,7 @@ source helper/yay.sh
 yay -Syu --noconfirm \
   hyprland-git hyprpaper-git \
   wofi \
-  sddm \
+  sddm sddm-sugar-candy-git \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   grim slurp \
   firefox \
@@ -31,3 +31,5 @@ cp config/wallpaper.png ~/.config/hypr
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
+
+sed -i "/Current=/c\Current=sugar-candy"
