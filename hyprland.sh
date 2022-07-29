@@ -30,5 +30,5 @@ cp config/hyprland.conf ~/.config/hypr
 cp config/hyprpaper.conf ~/.config/hypr
 cp config/wallpaper.png ~/.config/hypr
 
-rm /usr/share/gtk-3.0/settings.ini
+sudo rm /usr/share/gtk-3.0/settings.ini
 cp config/settings.ini /usr/share/gtk-3.0
