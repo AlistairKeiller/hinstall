@@ -15,7 +15,7 @@ yay -Syu --noconfirm \
   pavucontrol \
   visual-studio-code-bin gnome-keyring
 
-systemctl enable sddm
+systemctl enable lightdm
 
 chsh -s /usr/bin/zsh
 
