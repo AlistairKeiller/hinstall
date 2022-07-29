@@ -32,3 +32,6 @@ cp config/wallpaper.png ~/.config/hypr
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
+
+git config --global user.name 'Alistair Keiller'
+git config --global user.email 'alistair@keiller.net'
