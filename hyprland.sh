@@ -31,4 +31,4 @@ cp config/hyprpaper.conf ~/.config/hypr
 cp config/wallpaper.png ~/.config/hypr
 
 sudo rm /usr/share/gtk-3.0/settings.ini
-cp config/settings.ini /usr/share/gtk-3.0
+sudo cp config/settings.ini /usr/share/gtk-3.0
