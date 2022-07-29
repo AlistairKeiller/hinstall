@@ -15,7 +15,7 @@ yay -Syu --noconfirm \
   pavucontrol \
   visual-studio-code-bin gnome-keyring
 
-sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
+sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 systemctl enable sddm
 
 chsh -s /usr/bin/zsh
