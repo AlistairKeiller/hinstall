@@ -6,8 +6,7 @@ source helper/yay.sh
 yay -Syu --noconfirm \
   hyprland-git hyprpaper-git \
   wofi \
-  sddm  \
-  adw-gtk3 \
+  lightdm lightdm-webkit2-greeter \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   grim slurp \
   firefox \
