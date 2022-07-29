@@ -27,8 +27,6 @@ cp config/alacritty.yml ~/.config/alacritty
 mkdir ~/.config/hypr
 cp config/hyprland.conf ~/.config/hypr
 cp config/hyprpaper.conf ~/.config/hypr
-
-mkdir ~/wallpapers
-cp config/wallpaper.png ~/wallpapers
+cp config/wallpaper.png ~/.config/hypr
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
