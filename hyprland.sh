@@ -6,7 +6,7 @@ source helper/yay.sh
 yay -Syu --noconfirm \
   hyprland-git hyprpaper-git \
   wofi \
-  lightdm lightdm-webkit2-greeter \
+  sddm \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   grim slurp \
   firefox \
@@ -15,7 +15,7 @@ yay -Syu --noconfirm \
   pavucontrol \
   visual-studio-code-bin gnome-keyring
 
-systemctl enable lightdm
+systemctl enable sddm
 
 chsh -s /usr/bin/zsh
 
