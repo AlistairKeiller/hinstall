@@ -15,6 +15,7 @@ yay -Syu --noconfirm \
   pavucontrol \
   visual-studio-code-bin gnome-keyring
 
+sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 systemctl enable sddm
 
 chsh -s /usr/bin/zsh
@@ -31,5 +32,3 @@ cp config/wallpaper.png ~/.config/hypr
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
-
-sed -i "/Current=/c\Current=sugar-candy"
