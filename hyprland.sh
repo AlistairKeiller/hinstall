@@ -10,12 +10,13 @@ yay -Syu --noconfirm \
   wofi \
   grim slurp \
   sddm sddm-sugar-candy-git \
+  deepin-polkit-agent \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
   nautilus \
   pavucontrol \
-  visual-studio-code-bin gnome-keyring
+  visual-studio-code-bin
 
 sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 systemctl enable sddm
