@@ -34,6 +34,10 @@ cp config/hyprland.conf ~/.config/hypr
 cp config/hyprpaper.conf ~/.config/hypr
 cp config/wallpaper.png ~/.config/hypr
 
+mkdir ~/.config/waybar
+cp config/config ~/.config/waybar
+cp config/style.css ~/.config/waybar
+
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
 
