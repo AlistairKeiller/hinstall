@@ -37,15 +37,6 @@ window#waybar {
 #workspaces button.focused {
 	color: #268bd2;
 }
-#workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
-}
-#workspaces button:hover {
-	background: #1a1a1a;
-	border: #1a1a1a;
-	padding: 0 3px;
-}
 
 #pulseaudio {
 	color: #268bd2;
