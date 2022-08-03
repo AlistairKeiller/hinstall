@@ -5,10 +5,11 @@ source helper/yay.sh
 
 yay -Syu --noconfirm \
   hyprland-git hyprpaper-git \
-  wofi \
   sddm sddm-sugar-candy-git \
-  alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
+  wofi \
+  waybar \
   grim slurp \
+  alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
   nautilus \
