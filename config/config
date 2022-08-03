@@ -30,9 +30,6 @@
 		"cpu",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"battery",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
 		"disk",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
@@ -86,8 +83,7 @@
 			]
 		},
 		"scroll-step": 5,
-		"on-click": "pamixer -t",
-		"on-click-right": "pavucontrol"
+		"on-click": "pavucontrol",
 	},
 	"memory": {
 		"interval": 5,
@@ -96,21 +92,6 @@
 	"cpu": {
 		"interval": 5,
 		"format": "CPU {usage:2}%"
-	},
-	"battery": {
-		"states": {
-			"good": 95,
-			"warning": 30,
-			"critical": 15
-		},
-		"format": "{icon} {capacity}%",
-		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
-		]
 	},
 	"disk": {
 		"interval": 5,
