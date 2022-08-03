@@ -18,10 +18,11 @@ yay -Syu --noconfirm \
   pavucontrol \
   visual-studio-code-bin
 
-sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 systemctl enable sddm
 
 chsh -s /usr/bin/zsh
+
+sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 
 cp config/.zshrc ~
 
