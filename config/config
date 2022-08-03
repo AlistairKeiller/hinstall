@@ -53,7 +53,7 @@
 		"tooltip": false
 	},
 
-	"sway/workspaces": {
+	"wlr/workspaces": {
 		"disable-scroll": true,
 		"format": "{name}"
 	},
