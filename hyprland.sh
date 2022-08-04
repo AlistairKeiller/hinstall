@@ -1,7 +1,12 @@
 #!/bin/bash
 set -e
 
-source helper/yay.sh
+sudo pacman -Syu --noconfirm
+git clone https://aur.archlinux.org/yay
+cd yay
+makepkg -si --noconfirm
+cd ..
+sudo rm -r yay
 
 yay -Syu --noconfirm \
   hyprland-git \
