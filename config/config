@@ -54,7 +54,6 @@
 	},
 
 	"wlr/workspaces": {
-		"disable-scroll": true,
 		"format": "{name}"
 	},
 
