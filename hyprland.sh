@@ -11,7 +11,7 @@ yay -Syu --noconfirm \
   dunst \
   grim slurp \
   sddm sddm-sugar-candy-git \
-  polkit-gnome gnome-keyring \
+  polkit-gnome \
   alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
