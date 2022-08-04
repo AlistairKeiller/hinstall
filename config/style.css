@@ -21,6 +21,7 @@ window#waybar {
 }
 
 #workspaces,
+#workspaces button:hover,
 #clock.1,
 #clock.2,
 #clock.3,
