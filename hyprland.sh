@@ -34,6 +34,7 @@ cp config/.zshrc ~
 cp -r config/alacritty ~/.config
 cp -r config/hypr ~/.config
 cp -r config/waybar ~/.config
+cp -r config/dunst ~/.config
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
