@@ -26,18 +26,9 @@ chsh -s /usr/bin/zsh
 sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 
 cp config/.zshrc ~
-
-mkdir ~/.config/alacritty
-cp config/alacritty.yml ~/.config/alacritty
-
-mkdir ~/.config/hypr
-cp config/hyprland.conf ~/.config/hypr
-cp config/hyprpaper.conf ~/.config/hypr
-cp config/wallpaper.png ~/.config/hypr
-
-mkdir ~/.config/waybar
-cp config/config ~/.config/waybar
-cp config/style.css ~/.config/waybar
+cp -r config/alacritty ~/.config
+cp -r config/hypr ~/.config
+cp -r config/waybar ~/.config
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
