@@ -8,6 +8,7 @@ yay -Syu --noconfirm \
   hyprpaper-git \
   waybar-hyprland-git \
   wofi \
+  dunst \
   grim slurp \
   sddm sddm-sugar-candy-git \
   polkit-gnome gnome-keyring \
