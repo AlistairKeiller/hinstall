@@ -3,7 +3,6 @@
 {
 	"layer": "top",
 	"position": "top",
-
 	"modules-left": [
 		"wlr/workspaces",
 		"custom/right-arrow-dark"
@@ -52,11 +51,6 @@
 		"format": "",
 		"tooltip": false
 	},
-
-	"wlr/workspaces": {
-		"format": "{name}"
-	},
-
 	"clock#1": {
 		"format": "{:%a}",
 		"tooltip": false
@@ -69,7 +63,6 @@
 		"format": "{:%m-%d}",
 		"tooltip": false
 	},
-
 	"pulseaudio": {
 		"format": "{icon} {volume:2}%",
 		"format-bluetooth": "{icon}  {volume}%",
