@@ -29,9 +29,6 @@
 		"cpu",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"disk",
-		"custom/left-arrow-light",
-		"custom/left-arrow-dark",
 		"tray"
 	],
 
@@ -52,43 +49,23 @@
 		"tooltip": false
 	},
 	"clock#1": {
-		"format": "{:%a}",
-		"tooltip": false
+		"format": "{:%a}"
 	},
 	"clock#2": {
-		"format": "{:%H:%M}",
-		"tooltip": false
+		"format": "{:%H:%M}"
 	},
 	"clock#3": {
-		"format": "{:%m-%d}",
-		"tooltip": false
+		"format": "{:%m-%d}"
 	},
 	"pulseaudio": {
-		"format": "{icon} {volume:2}%",
-		"format-bluetooth": "{icon}  {volume}%",
-		"format-muted": "MUTE",
-		"format-icons": {
-			"headphones": "",
-			"default": [
-				"",
-				""
-			]
-		},
-		"scroll-step": 5,
-		"on-click": "pavucontrol",
+		"format": "{volume}% ",
+		"on-click": "pavucontrol"
 	},
 	"memory": {
-		"interval": 5,
-		"format": "Mem {}%"
-	},
+		"format": "{used:0.1f}G/{total:0.1f}G "
+	},  
 	"cpu": {
-		"interval": 5,
-		"format": "CPU {usage:2}%"
-	},
-	"disk": {
-		"interval": 5,
-		"format": "Disk {percentage_used:2}%",
-		"path": "/"
+		"format": "{usage}% "
 	},
 	"tray": {
 		"icon-size": 20
