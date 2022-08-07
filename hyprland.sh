@@ -22,7 +22,8 @@ yay -Syu --noconfirm \
   webcord \
   nautilus \
   pavucontrol \
-  visual-studio-code-bin
+  visual-studio-code-bin \
+#   sof-firmware `# for getting sound to work when no sound cards are detected`
 
 systemctl enable sddm
 
