@@ -28,10 +28,12 @@
 		"custom/left-arrow-dark",
 		"cpu",
 		"custom/left-arrow-light",
+		// "custom/left-arrow-dark",
+		// "battery",
+		// "custom/left-arrow-light",
 		"custom/left-arrow-dark",
 		"tray"
 	],
-
 	"custom/left-arrow-dark": {
 		"format": "",
 		"tooltip": false
@@ -67,6 +69,16 @@
 	"cpu": {
 		"format": "{usage}% "
 	},
+	// "battery": {
+	// 	"format": "{capacity}% {icon}",
+	// 	"format-icons": [
+	// 		"",
+	// 		"",
+	// 		"",
+	// 		"",
+	// 		""
+	// 	]
+	// },
 	"tray": {
 		"icon-size": 20
 	}

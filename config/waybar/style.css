@@ -28,6 +28,7 @@ window#waybar {
 #pulseaudio,
 #memory,
 #cpu,
+/*#battery,*/
 #tray {
 	background: #1a1a1a;
 }
@@ -49,10 +50,14 @@ window#waybar {
 #cpu {
 	color: #6c71c4;
 }
+/*#battery {
+	color: #859900;
+}*/
 
 #clock,
 #pulseaudio,
 #memory,
-#cpu {
+#cpu/*,
+#battery*/ {
 	padding: 0 10px;
 }
