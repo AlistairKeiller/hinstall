@@ -18,6 +18,7 @@ yay -Syu --noconfirm \
   sddm sddm-sugar-candy-git \
   polkit-gnome gnome-keyring \
   alacritty zsh zsh-autosuggestions zsh-syntax-highlighting zsh-completions zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
+  dash dashbinsh \
   firefox \
   webcord \
   nautilus \
