@@ -17,7 +17,7 @@ yay -Syu --noconfirm \
   grim slurp \
   sddm sddm-sugar-candy-git \
   polkit-gnome gnome-keyring \
-  alacritty zsh oh-my-zsh-git fzf zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
+  alacritty zsh zsh-autosuggestions zsh-syntax-highlighting zsh-completions zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   firefox \
   webcord \
   nautilus \
