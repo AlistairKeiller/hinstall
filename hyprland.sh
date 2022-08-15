@@ -24,7 +24,10 @@ yay -Syu --noconfirm \
   nautilus \
   pavucontrol \
   visual-studio-code-bin \
+  flatpak \
 #   sof-firmware `# for getting sound to work when no sound cards are detected`
+
+flatpak install flathub com.usebottles.bottles
 
 systemctl enable sddm
 
