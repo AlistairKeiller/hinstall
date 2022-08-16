@@ -24,7 +24,7 @@ yay -Syu --noconfirm \
   nautilus \
   pavucontrol \
   visual-studio-code-bin \
-  virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft `# https://wiki.archlinux.org/title/Virt-Manager` \
+  virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq `# https://wiki.archlinux.org/title/Virt-Manager` \
 #   sof-firmware `# for getting sound to work when no sound cards are detected`
 
 sudo systemctl enable sddm libvirtd
