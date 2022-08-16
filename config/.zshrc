@@ -4,6 +4,9 @@ SAVEHIST=10000
 
 alias ls='ls --color=auto'
 
+bindkey ";5C" forward-word
+bindkey ";5D" backward-word
+
 setopt AUTO_CD
 
 autoload -Uz compinit
