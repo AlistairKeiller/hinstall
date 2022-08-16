@@ -24,13 +24,20 @@ yay -Syu --noconfirm \
   nautilus \
   pavucontrol \
   visual-studio-code-bin \
+  virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft `# https://wiki.archlinux.org/title/Virt-Manager` \
 #   sof-firmware `# for getting sound to work when no sound cards are detected`
 
-systemctl enable sddm
+sudo systemctl enable sddm libvirtd
 
 chsh -s /usr/bin/zsh
 
 sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
+
+sudo sed -i '/#unix_sock_group = "libvirt"/c\unix_sock_group = "libvirt"' /etc/libvirt/libvirtd.conf
+sudo sed -i '/#unix_sock_rw_perms = "0770"/c\unix_sock_rw_perms = "0770"' /etc/libvirt/libvirtd.conf
+
+sudo sed -i "/#user = \"libvirt-qemu\"/c\#user = \"$(whoami)\"" /etc/libvirt/libvirtd.conf
+sudo sed -i "/#group = \"libvirt-qemu\"/c\#group = \"$(whoami)\"" /etc/libvirt/libvirtd.conf
 
 cp config/.zshrc ~
 cp -r config/alacritty ~/.config
