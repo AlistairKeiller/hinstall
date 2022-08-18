@@ -19,7 +19,7 @@ yay -Syu --noconfirm \
   polkit-gnome gnome-keyring \
   alacritty zsh zsh-syntax-highlighting zsh-completions zsh-autocomplete-git zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   dash dashbinsh \
-  min \
+  brave-bin \
   webcord \
   nautilus \
   pavucontrol \
