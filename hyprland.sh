@@ -9,7 +9,7 @@ cd ..
 sudo rm -r yay
 
 yay -Syu --noconfirm \
-  hyprland \
+  hyprland-git \
   hyprpaper-git \
   waybar-hyprland-git \
   wofi \
