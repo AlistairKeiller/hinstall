@@ -12,17 +12,16 @@
     frame_width = 0
 
 [urgency_low]
-    background = "#222222"
-    foreground = "#888888"
+    background = "#1e1e1e"
+    foreground = "#e5e5e5"
     timeout = 10
 
 [urgency_normal]
-    background = "#285577"
-    foreground = "#ffffff"
+    background = "#2472c8"
+    foreground = "#e5e5e5"
     timeout = 10
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
-    frame_color = "#ff0000"
+    background = "#cd3131"
+    foreground = "#e5e5e5"
     timeout = 0
