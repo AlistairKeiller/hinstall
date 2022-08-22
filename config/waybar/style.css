@@ -12,12 +12,12 @@ window#waybar {
 
 #custom-right-arrow-dark,
 #custom-left-arrow-dark {
-	color: #151515;
+	color: #000000;
 }
 #custom-right-arrow-light,
 #custom-left-arrow-light {
 	color: #1e1e1e;
-	background: #151515;
+	background: #000000;
 }
 
 #workspaces,
@@ -30,7 +30,7 @@ window#waybar {
 #cpu,
 /*#battery,*/
 #tray {
-	background: #151515;
+	background: #000000;
 }
 
 #workspaces button {
