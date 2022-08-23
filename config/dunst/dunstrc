@@ -7,8 +7,7 @@
     offset = 10x50
     font = MesloLGS NF 9
     enable_recursive_icon_lookup = true
-    icon_theme = "Adwaita"
-    corner_radius = 8
+    corner_radius = 1
     frame_width = 0
 
 [urgency_low]
