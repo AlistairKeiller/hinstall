@@ -21,7 +21,6 @@ yay -Syu --noconfirm \
   dash dashbinsh \
   brave-bin \
   webcord \
-  nautilus \
   pavucontrol \
   visual-studio-code-bin \
 #   sof-firmware `# for getting sound to work when no sound cards are detected`
