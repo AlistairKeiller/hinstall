@@ -31,12 +31,8 @@ chsh -s /usr/bin/zsh
 
 sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 
-cp config/.zshrc ~
-cp -r config/alacritty ~/.config
-cp -r config/hypr ~/.config
-cp -r config/waybar ~/.config
-cp -r config/dunst ~/.config
-cp -r config/Webcord ~/.config
+cp .zshrc ~
+cp -r config/* ~/.config
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo 'gtk-application-prefer-dark-theme=1' | sudo tee -a /usr/share/gtk-3.0/settings.ini
