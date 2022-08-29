@@ -19,11 +19,10 @@ yay -Syu --noconfirm \
   polkit-gnome gnome-keyring \
   alacritty zsh zsh-syntax-highlighting zsh-completions zsh-autocomplete-git zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
   dash dashbinsh \
-  brave-bin \
+  firefox \
   webcord \
   pavucontrol \
   nautilus \
-  opentabletdriver \
   visual-studio-code-bin \
 #   sof-firmware `# for getting sound to work when no sound cards are detected`
 
