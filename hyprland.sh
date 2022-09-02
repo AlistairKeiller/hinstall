@@ -17,7 +17,7 @@ yay -Syu --noconfirm \
   grim slurp \
   sddm sddm-sugar-candy-git \
   polkit-gnome gnome-keyring \
-  alacritty zsh zsh-syntax-highlighting zsh-completions zsh-autocomplete-git zsh-theme-powerlevel10k-git ttf-meslo-nerd-font-powerlevel10k \
+  alacritty fish fisher nerd-fonts-jetbrains-mono \
   dash dashbinsh \
   brave-bin \
   webcord \
@@ -28,11 +28,12 @@ yay -Syu --noconfirm \
 
 sudo systemctl enable sddm
 
-chsh -s /usr/bin/zsh
+chsh -s /usr/bin/fish
+
+fisher install IlanCosman/tide@v5
 
 sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 
-cp .zshrc ~
 cp -r config/* ~/.config
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
