@@ -17,7 +17,7 @@ yay -Syu --noconfirm \
  grim slurp \
  sddm sddm-sugar-candy-git \
  polkit-gnome gnome-keyring \
- alacritty fish fisher nerd-fonts-jetbrains-mono \
+ alacritty fish fisher fish-fzf bat fd nerd-fonts-jetbrains-mono \
  dash dashbinsh \
  brave-bin \
  webcord \
