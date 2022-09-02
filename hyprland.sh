@@ -9,28 +9,28 @@ cd ..
 sudo rm -r yay
 
 yay -Syu --noconfirm \
-  hyprland \
-  hyprpaper-git \
-  waybar-hyprland-git \
-  wofi \
-  dunst \
-  grim slurp \
-  sddm sddm-sugar-candy-git \
-  polkit-gnome gnome-keyring \
-  alacritty fish fisher nerd-fonts-jetbrains-mono \
-  dash dashbinsh \
-  brave-bin \
-  webcord \
-  pavucontrol \
-  nautilus \
-  visual-studio-code-bin \
+ hyprland \
+ hyprpaper-git \
+ waybar-hyprland-git \
+ wofi \
+ dunst \
+ grim slurp \
+ sddm sddm-sugar-candy-git \
+ polkit-gnome gnome-keyring \
+ alacritty fish fisher nerd-fonts-jetbrains-mono \
+ dash dashbinsh \
+ brave-bin \
+ webcord \
+ pavucontrol \
+ nautilus \
+ visual-studio-code-bin \
 #   sof-firmware `# for getting sound to work when no sound cards are detected`
 
 sudo systemctl enable sddm
 
 chsh -s /usr/bin/fish
 
-fisher install IlanCosman/tide@v5
+fish -c "fisher install IlanCosman/tide"
 
 sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 
