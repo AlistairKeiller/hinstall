@@ -7,7 +7,7 @@ makepkg -si --noconfirm
 cd ..
 sudo rm -r paru
 
-yay -Syu --noconfirm \
+paru -Syu --noconfirm \
  hyprland \
  hyprpaper-git \
  waybar-hyprland-git \
