@@ -1,12 +1,11 @@
 #!/bin/sh
 set -e
 
-sudo pacman -Syu --noconfirm
-git clone https://aur.archlinux.org/yay
-cd yay
+git clone https://aur.archlinux.org/paru
+cd paru
 makepkg -si --noconfirm
 cd ..
-sudo rm -r yay
+sudo rm -r paru
 
 yay -Syu --noconfirm \
  hyprland \
