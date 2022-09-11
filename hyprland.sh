@@ -22,9 +22,10 @@ paru -Syu --noconfirm \
  webcord \
  pavucontrol \
  nautilus \
- visual-studio-code-bin
+ visual-studio-code-bin \
+ virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft
 
-sudo systemctl enable sddm
+sudo systemctl enable sddm libvirtd
 
 chsh -s /usr/bin/fish
 
