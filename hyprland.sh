@@ -23,7 +23,7 @@ paru -Syu --noconfirm \
  pavucontrol \
  nautilus \
  visual-studio-code-bin \
- virt-manager qemu ebtables
+ virt-manager qemu-full
 
 sudo systemctl enable sddm libvirtd
 
