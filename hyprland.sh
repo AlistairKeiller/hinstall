@@ -23,7 +23,7 @@ paru -Syu --noconfirm \
  pavucontrol \
  nautilus \
  visual-studio-code-bin \
- virt-manager qemu-full
+ virt-manager qemu-full dnsmasq
 
 sudo systemctl enable sddm libvirtd
 
