@@ -22,10 +22,10 @@ paru -Syu --noconfirm \
  webcord \
  pavucontrol \
  nautilus \
- visual-studio-code-bin# \
+ visual-studio-code-bin # \
 #  virt-manager qemu-full dnsmasq
 
-sudo systemctl enable sddm# libvirtd
+sudo systemctl enable sddm # libvirtd
 
 chsh -s /usr/bin/fish
 
