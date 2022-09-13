@@ -20,6 +20,7 @@ paru -Syu --noconfirm \
  dash dashbinsh \
  brave-bin \
  webcord \
+ skypeforlinux-stable-bin \
  pavucontrol \
  nautilus \
  visual-studio-code-bin \
