@@ -25,9 +25,9 @@ paru -Syu --noconfirm \
  nautilus \
  visual-studio-code-bin \
  intellij-idea-ultimate-edition \
- virt-manager qemu-full dnsmasq
+ # virt-manager qemu-full dnsmasq
 
-sudo systemctl enable sddm libvirtd
+sudo systemctl enable sddm # libvirtd
 
 chsh -s /usr/bin/fish
 
