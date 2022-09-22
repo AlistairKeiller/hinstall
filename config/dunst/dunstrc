@@ -7,7 +7,6 @@
     offset = 10x50
     font = JetBrainsMono Nerd Font 9
     enable_recursive_icon_lookup = true
-    corner_radius = 1
     frame_width = 0
 
 [urgency_low]
