@@ -22,7 +22,8 @@ paru -Syu --noconfirm \
  pavucontrol \
  nautilus \
  visual-studio-code-bin \
- intellij-idea-ultimate-edition
+ intellij-idea-ultimate-edition \
+ bluej
 
 sudo systemctl enable sddm
 
