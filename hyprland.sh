@@ -11,23 +11,20 @@ paru -Syu --noconfirm \
  hyprland \
  hyprpaper-git \
  waybar-hyprland-git \
- wofi \
  dunst \
- grim slurp \
+ grimshot \
  sddm sddm-sugar-candy-git \
  polkit-gnome gnome-keyring \
  alacritty fish fisher nerd-fonts-jetbrains-mono \
- dash dashbinsh \
  brave-bin ttf-liberation \
  webcord \
  skypeforlinux-stable-bin \
  pavucontrol \
  nautilus \
  visual-studio-code-bin \
- intellij-idea-ultimate-edition \
- # virt-manager qemu-full dnsmasq
+ intellij-idea-ultimate-edition
 
-sudo systemctl enable sddm # libvirtd
+sudo systemctl enable sddm
 
 chsh -s /usr/bin/fish
 
