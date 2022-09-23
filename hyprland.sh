@@ -13,7 +13,7 @@ paru -Syu --noconfirm \
  waybar-hyprland-git \
  dunst \
  grimshot \
- sddm sddm-sugar-candy-git \
+ ly \
  polkit-gnome gnome-keyring \
  alacritty fish fisher nerd-fonts-jetbrains-mono \
  brave-bin ttf-liberation \
@@ -25,13 +25,11 @@ paru -Syu --noconfirm \
  intellij-idea-ultimate-edition \
  bluej
 
-sudo systemctl enable sddm
+sudo systemctl enable ly
 
 chsh -s /usr/bin/fish
 
 fish -c "fisher install IlanCosman/tide"
-
-sudo sed -i "/Current=/c\Current=sugar-candy" /usr/lib/sddm/sddm.conf.d/default.conf
 
 cp -r config/* ~/.config
 
