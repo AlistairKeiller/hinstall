@@ -9,7 +9,7 @@ sudo rm -r paru
 
 paru -Syu --noconfirm \
  hyprland \
- hyprpaper-git \
+ swaybg \
  waybar-hyprland-git \
  dunst \
  grimshot \
