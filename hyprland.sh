@@ -16,7 +16,7 @@ paru -Syu --noconfirm \
  ly \
  polkit-gnome gnome-keyring \
  alacritty fish fisher nerd-fonts-jetbrains-mono \
- brave-bin ttf-liberation \
+ firefox \
  webcord \
  skypeforlinux-stable-bin \
  pavucontrol \
