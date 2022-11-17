@@ -18,7 +18,6 @@ paru -Syu --noconfirm \
  alacritty fish fisher nerd-fonts-jetbrains-mono \
  firefox \
  webcord \
- skypeforlinux-stable-bin \
  pavucontrol \
  nautilus \
  visual-studio-code-bin
