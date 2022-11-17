@@ -17,7 +17,7 @@ paru -Syu --noconfirm \
  polkit-gnome gnome-keyring \
  alacritty fish fisher nerd-fonts-jetbrains-mono \
  firefox \
- webcord \
+ discord \
  pavucontrol \
  nautilus \
  visual-studio-code-bin
