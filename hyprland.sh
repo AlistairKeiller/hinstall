@@ -13,7 +13,7 @@ paru -Syu --noconfirm \
  waybar-hyprland-git \
  dunst \
  grimshot \
- ly \
+ sddm \
  polkit-gnome gnome-keyring \
  alacritty fish fisher nerd-fonts-jetbrains-mono \
  firefox \
@@ -22,7 +22,7 @@ paru -Syu --noconfirm \
  nautilus \
  visual-studio-code-bin
 
-sudo systemctl enable ly
+sudo systemctl enable sddm
 
 chsh -s /usr/bin/fish
 
