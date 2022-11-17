@@ -20,7 +20,8 @@ paru -Syu --noconfirm \
  discord \
  pavucontrol \
  nautilus \
- visual-studio-code-bin
+ visual-studio-code-bin \
+ sof-firmware
 
 sudo systemctl enable sddm
 
