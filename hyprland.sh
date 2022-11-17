@@ -21,9 +21,7 @@ paru -Syu --noconfirm \
  skypeforlinux-stable-bin \
  pavucontrol \
  nautilus \
- visual-studio-code-bin jdk-openjdk \
- intellij-idea-ultimate-edition \
- bluej
+ visual-studio-code-bin
 
 sudo systemctl enable ly
 
